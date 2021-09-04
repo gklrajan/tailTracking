@@ -10,12 +10,6 @@
 thresh=0.01; %0.25 for zf %0.02 for dt
 numsegs=10;
 
-%% catch file error
-
-if sum(tailSegAng_master)==0
-    print("check matrix");
-end
-
 %%
 
 tailSegAngles=tailSegAng_master;
